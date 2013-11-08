@@ -1,0 +1,27 @@
+{
+  "name": "goinstant-auth",
+  "version": "0.0.0",
+  "description": "GoInstant Authentication for Your Node.js Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goinstant/node-goinstant-auth.git"
+  },
+  "keywords": [
+    "goinstant",
+    "jwt",
+    "auth",
+    "authentication"
+  ],
+  "author": "Jeremy Stashewsky <jeremy@goinstant.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/goinstant/node-goinstant-auth/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.2"
+  }
+}
