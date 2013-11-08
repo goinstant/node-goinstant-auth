@@ -7,7 +7,10 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha tests",
+    "blanket": {
+      "pattern": "signer.js"
+    }
   },
   "repository": {
     "type": "git",
@@ -25,7 +28,10 @@
     "url": "https://github.com/goinstant/node-goinstant-auth/issues"
   },
   "devDependencies": {
-    "mocha": "1.8.2"
+    "mocha": "1.8.2",
+    "coveralls": "~2.3.0",
+    "mocha-lcov-reporter": "0.0.1",
+    "blanket": "~1.1.5"
   },
   "dependencies": {
     "base64url": "0.0.5"
