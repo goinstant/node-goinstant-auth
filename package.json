@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "GoInstant Authentication for Your Node.js Application",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
   "scripts": {
     "test": "mocha test.js"
   },
@@ -22,6 +25,9 @@
     "url": "https://github.com/goinstant/node-goinstant-auth/issues"
   },
   "devDependencies": {
-    "mocha": "~1.8.2"
+    "mocha": "1.8.2"
+  },
+  "dependencies": {
+    "base64url": "0.0.5"
   }
 }
