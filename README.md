@@ -12,6 +12,12 @@ This library is not intended as a general-use JWT library; see JWT-php for
 that. At the time of this writing, GoInstant supports the [JWT IETF draft
 version 8](https://tools.ietf.org/html/draft-ietf-oauth-json-web-token-08).
 
+# Installation
+
+```sh
+npm install --save goinstant-auth
+```
+
 # Usage
 
 Construct a signer with your goinstant application key. The application key
