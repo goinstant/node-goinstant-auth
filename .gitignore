@@ -1,3 +1,4 @@
+.*.sw[mnop]
 lib-cov
 *.seed
 *.log
