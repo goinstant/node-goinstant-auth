@@ -3,7 +3,7 @@
 var assert = require('assert');
 var base64url = require('base64url');
 
-var Signer = require('./index.js');
+var Signer = require('../').Signer;
 
 function assertInstanceOf(obj, ctor, message) {
   if (!(obj instanceof ctor)) {
@@ -15,12 +15,6 @@ function assertInstanceOf(obj, ctor, message) {
 assert.instanceOf = assert.instanceOf || assertInstanceOf;
 
 describe('goinstant-auth Signer', function() {
-
-  describe('module', function() {
-    it('has Signer as a property too for convenience', function() {
-      assert.strictEqual(Signer, Signer.Signer);
-    });
-  });
 
   describe('constructor', function() {
     it('needs the secret key to not be null', function() {
