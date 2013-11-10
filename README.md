@@ -21,7 +21,8 @@ npm install --save goinstant-auth
 # Usage
 
 Construct a signer with your goinstant application key. The application key
-should be in base64url or base64 string format.
+should be in base64url or base64 string format. To get your key, go to [your
+goinstant dashboard](https://goinstant.com/dashboard) and click on your App.
 
 :warning: **Remember, the Secret Key needs to be treated like a password!**
 Never share it with your users!
