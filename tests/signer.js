@@ -84,7 +84,7 @@ describe('goinstant-auth Signer', function() {
       });
     });
 
-    it('needs a userData to have an id', function(done) {
+    it('needs userData to have an id', function(done) {
       var userData = {
         domain: 'example.com',
         displayName: 'bob',
@@ -97,7 +97,7 @@ describe('goinstant-auth Signer', function() {
       });
     });
 
-    it('needs a userData to have a displayName', function(done) {
+    it('needs userData to have a displayName', function(done) {
       var userData = {
         id: 'bar',
         domain: 'example.com',
@@ -110,7 +110,7 @@ describe('goinstant-auth Signer', function() {
       });
     });
 
-    it('needs a userData to have a domain', function(done) {
+    it('needs userData to have a domain', function(done) {
       var userData = {
         id: 'bar',
         displayName: 'bob',
