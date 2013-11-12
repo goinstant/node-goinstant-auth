@@ -71,6 +71,7 @@ application key every time.
 
 `userData` is an Object with the following required fields, plus any other
 custom ones you want to include in the JWT.
+
 - `domain` - the domain of your website
 - `id` - the unique, permanent identity of this user on your website
 - `displayName` - the name to initially display for this user
@@ -93,6 +94,7 @@ javascript thread for too long.
 # Technicals
 
 The `sign()` method `userData` maps to the following JWT claims:
+
 - `domain` -> `iss` (standard claim)
 - `id` -> `sub` (standard claim)
 - `displayName` -> `dn` (GoInstant private claim)
