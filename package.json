@@ -1,10 +1,10 @@
 {
   "name": "goinstant-auth",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "GoInstant Authentication for Your Node.js Application",
   "main": "index.js",
   "engines": {
-    "node": ">=0.10"
+    "node": "0.10.x"
   },
   "scripts": {
     "test": "mocha tests",
@@ -29,9 +29,9 @@
   },
   "devDependencies": {
     "mocha": "1.8.2",
-    "coveralls": "~2.3.0",
+    "coveralls": "2.3.0",
     "mocha-lcov-reporter": "0.0.1",
-    "blanket": "~1.1.5"
+    "blanket": "1.1.5"
   },
   "dependencies": {
     "base64url": "0.0.5"
