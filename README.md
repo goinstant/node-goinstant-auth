@@ -108,9 +108,9 @@ be overridden by this library.
 
 # Support
 
-Email [GoInstant Support](email:support@goinstant.com) or stop by [#goinstant on freenode](irc://irc.freenode.net/#goinstant).
+Email [GoInstant Support](mailto:support@goinstant.com) or stop by [#goinstant on freenode](irc://irc.freenode.net/#goinstant).
 
-For responsible disclosures, email [GoInstant Security](security@goinstant.com).
+For responsible disclosures, email [GoInstant Security](mailto:security@goinstant.com).
 
 To [file a bug](https://github.com/goinstant/node-goinstant-auth/issues) or
 [propose a patch](https://github.com/goinstant/node-goinstant-auth/pulls),
