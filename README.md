@@ -2,7 +2,7 @@
 
 GoInstant Authentication for Your Node.js Application
 
-[![Build Status](https://magnum.travis-ci.com/goinstant/node-goinstant-auth.png?token=fy6GC4GtQkNjSzNF3geU&branch=master)](https://magnum.travis-ci.com/goinstant/node-goinstant-auth) [![Coverage Status](https://coveralls.io/repos/goinstant/node-goinstant-auth/badge.png?branch=master)](https://coveralls.io/r/goinstant/node-goinstant-auth?branch=master)
+[![Build Status](https://travis-ci.org/goinstant/node-goinstant-auth.png?branch=master)](https://travis-ci.org/goinstant/node-goinstant-auth) [![Coverage Status](https://coveralls.io/repos/goinstant/node-goinstant-auth/badge.png?branch=master)](https://coveralls.io/r/goinstant/node-goinstant-auth?branch=master)
 
 This is an implementation of JWT tokens consistent with what's specified in the
 [GoInstant Users and Authentication
