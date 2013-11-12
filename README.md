@@ -104,6 +104,16 @@ The `sign()` method `userData` maps to the following JWT claims:
 For the `extraHeaders` parameter in `sign()`, the `alg` and `typ` headers will
 be overridden by this library.
 
+# Support
+
+Email [GoInstant Support](email:support@goinstant.com) or stop by [#goinstant on freenode](irc://irc.freenode.net/#goinstant).
+
+For responsible disclosures, email [GoInstant Security](security@goinstant.com).
+
+To [file a bug](https://github.com/goinstant/node-goinstant-auth/issues) or
+[propose a patch](https://github.com/goinstant/node-goinstant-auth/pulls),
+please use github directly.
+
 # Legal
 
 &copy; 2013 GoInstant Inc., a salesforce.com company.  All Rights Reserved.
