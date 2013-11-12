@@ -22,7 +22,7 @@
     "auth",
     "authentication"
   ],
-  "author": "Jeremy Stashewsky <jeremy@goinstant.com>",
+  "author": "GoInstant Inc. <support@goinstant.com>",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/goinstant/node-goinstant-auth/issues"
