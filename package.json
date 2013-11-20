@@ -1,6 +1,6 @@
 {
   "name": "goinstant-auth",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "GoInstant Authentication for Your Node.js Application",
   "main": "index.js",
   "engines": {
