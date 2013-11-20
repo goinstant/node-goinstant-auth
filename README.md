@@ -136,6 +136,14 @@ Testing is with the [mocha](https://github.com/visionmedia/mocha) framework.  Te
 npm test  # uses the locally-installed mocha
 ```
 
+## Publishing
+
+1. `npm version patch` (increments `x` in `z.y.x`, then makes a commit for package.json, tags that commit)
+2. `git push --tags origin master`
+3. `npm publish`
+
+Go to https://npmjs.org/package/goinstant-auth and verify it published (can take several minutes)
+
 # Support
 
 Email [GoInstant Support](mailto:support@goinstant.com) or stop by [#goinstant on freenode](irc://irc.freenode.net/#goinstant).
