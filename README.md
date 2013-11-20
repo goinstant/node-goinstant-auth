@@ -115,7 +115,7 @@ guide to get you started.
 ## Development Dependencies
 
 - [node.js](http://nodejs.org) >= 0.10
-  - 0.11 cannot currently be used due to bug in crypto streams
+  - 0.11.7 and below cannot be used due to bugs in HMAC streams
 
 ## Set-Up
 
