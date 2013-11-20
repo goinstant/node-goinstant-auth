@@ -107,6 +107,35 @@ The authoritative list of claims used in GoInstant can be found in the [Users an
 For the `extraHeaders` parameter in `sign()`, the `alg` and `typ` headers will
 be overridden by this library.
 
+# Contributing
+
+If you'd like to contribute to or modify node-goinstant-auth, here's a quick
+guide to get you started.
+
+## Development Dependencies
+
+- [node.js](http://nodejs.org) >= 0.10
+  - 0.11 cannot currently be used due to bug in crypto streams
+
+## Set-Up
+
+Download via GitHub and install npm dependencies:
+
+```sh
+git clone git@github.com:goinstant/node-goinstant-auth.git
+cd node-goinstant-auth
+
+npm install
+```
+
+## Testing
+
+Testing is with the [mocha](https://github.com/visionmedia/mocha) framework.  Tests are located in the `tests/` directory.
+
+```sh
+npm test  # uses the locally-installed mocha
+```
+
 # Support
 
 Email [GoInstant Support](mailto:support@goinstant.com) or stop by [#goinstant on freenode](irc://irc.freenode.net/#goinstant).
